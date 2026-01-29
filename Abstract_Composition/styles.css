@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+
+.el1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left, mediumpurple, deeppink);
+}
+
+.el2 {
+    width: 100px;
+    height: 200px;
+    background: linear-gradient(to bottom, seagreen, sandybrown);
+    float: left;
+    margin-top: -80px;
+}
+
+.el3 {
+    width: 100vw;
+    height: 100px;
+    background: linear-gradient(to bottom, darkolivegreen, darkcyan);
+    margin-top: 0px;
+}
+
+.el4 {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 100px;
+    height: 200vh;
+    background: linear-gradient(to top, red, blue);
+}
+
+.el5 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to right, cadetblue, palegreen);
+    float: left;
+    margin-top: 100px;
+}
+
+.el6 {
+    width: 400px;
+    height: 100px;
+    background: linear-gradient(to bottom, magenta, pink);
+    float: left;
+}
+
+.el7 {
+    display: inline-block;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: linear-gradient(to right, yellow, blueviolet);
+    margin-left: 0px;
+}
+
+.el8 {
+    position: absolute;
+    top: 0;
+    right: 100x;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to top, darkred, darkorange);
+}
+
+.el9 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to left, plum, limegreen);
+    float: left;
+    margin-top: 0px;
+}
+
+.el10 {
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(to left, orange, green);
+    right: 0px;
+    bottom: 0px;
+}
